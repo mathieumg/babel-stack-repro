@@ -1,0 +1,24 @@
+{
+  "name": "babel-stack-repro",
+  "version": "1.0.0",
+  "description": "Babel stack bug reproduction.",
+  "main": "index.js",
+  "scripts": {
+    "with": "node with.js",
+    "without": "node without.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieumg/babel-stack-repro.git"
+  },
+  "author": "Mathieu M-Gosselin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathieumg/babel-stack-repro/issues"
+  },
+  "homepage": "https://github.com/mathieumg/babel-stack-repro#readme",
+  "devDependencies": {
+    "babel-register":"6.18.0",
+    "verror":"^1.9.0"
+  }
+}
