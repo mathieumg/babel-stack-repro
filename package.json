@@ -19,6 +19,8 @@
   "homepage": "https://github.com/mathieumg/babel-stack-repro#readme",
   "devDependencies": {
     "babel-register":"6.18.0",
-    "verror":"^1.9.0"
+    "verror":"^1.9.0",
+    "babel-plugin-transform-es2015-classes":"^6.18.0",
+    "babel-plugin-transform-builtin-extend":"^1.1.0"
   }
 }
